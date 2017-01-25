@@ -20,4 +20,10 @@ In this project, a web-based application that reads RSS feeds. Udacity already i
 
 4. New Feed Selection:
         A new feed is loaded by LoadFeed function.
+
+
+## How to run the files?
+1. Just click on the link https://github.com/szam25/Feed-Reader-Testing/blob/master/index.html
+2. Clone/Download index.html
+3. Enjoy and don't forget to give feedback.
            

@@ -83,13 +83,11 @@ $(function() {
 	describe('Initial Entries', function(){
 		var entry;
 		beforeEach(function(done){
-			loadFeed(0, function(){
-				done();
-			});
+			loadFeed(0, done);
 		});
     	
     	it('at least a single entry', function(){
-    		expect($('.entry').size).not.toBe(0);
+    		expect($('.feed').contents().find('.entry').size()).not.toBe(0);
     		
     	});
     });
